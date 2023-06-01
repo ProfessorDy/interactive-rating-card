@@ -1,10 +1,8 @@
 const form = document.querySelector('.rating-form')
-const ratingCard = document.querySelector('#rating-card')
-const thankYouCard = document.querySelector('#thank-you-card')
 const cards = document.querySelectorAll('.card')
+const rating = document.querySelector('#rating')
 
-console.log(ratingCard) 
-console.log(thankYouCard) 
+
 const changeState = (e) => {
     e.preventDefault()
     cards.forEach(card => {
@@ -12,8 +10,9 @@ const changeState = (e) => {
     });
 
     const data = new FormData(e.target)
-    console.log(data)
+    const ratingValue = data.get('rating')
+    
+    rating.textContent = ratingValue
 }
 
 form.addEventListener('submit', changeState)
-console.log(form);

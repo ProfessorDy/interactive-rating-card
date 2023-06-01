@@ -36,7 +36,7 @@
     <!-- Rating state start -->
     <article id="rating-card" class="card">
       <div class="star-icon">
-        <i class="fas fa-star"></i>
+        <img src="./images/icon-star.svg" alt="star icon" />
       </div>
       <div class="card-text">
         <h1 class="question">How did we do?</h1>
@@ -63,20 +63,29 @@
         <button type="submit" class="submit-btn" value="Submit">Submit</button>
       </form>
     </article>
-
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
     <article id="thank-you-card" class="card hide">
-      You selected
-      <span id="rating"></span>
-      out of 5
-      <div class="card-text">
-        <h2 class="remark">Thank you!</h2>
-        <p class="remark-subtitle">
-          We appreciate you taking the time to give a rating. If you ever need
-          more support, don’t hesitate to get in touch!
+      <div class="container">
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="review image"
+          class="thank-you-img"
+        />
+        <p class="selection">
+          You selected
+          <span id="rating"></span>
+          out of 5
         </p>
+
+        <div class="card-text">
+          <h2 class="remark">Thank you!</h2>
+          <p class="remark-subtitle">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
       </div>
     </article>
 

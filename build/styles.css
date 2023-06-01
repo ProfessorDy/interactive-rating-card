@@ -52,7 +52,7 @@ body{
     border-radius: 50%;
     color: var(--orange);
     background-color: var(--dark-blue);
-    box-shadow: 0 0 .25rem var(--medium-grey);
+    box-shadow: 0 0 .5rem var(--very-dark-blue);
 }
 .card-text{
     margin-bottom: 4rem;
@@ -62,6 +62,44 @@ body{
 }
 .question-subtitle{
     color: var(--light-grey);
+}
+.radio-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.submit-rating label{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    padding: 2rem;
+    background-color: var(--dark-blue);
+    box-shadow: 0 0 1rem var(--very-dark-blue);
+    color: var(--medium-grey);
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.submit-rating label:hover{
+    color: var(--white);
+    background-color: var(--orange);
+}
+.submit-rating input[type="radio"]{
+    display: none;
+}
+.submit-rating input[type="radio"]:checked + label {
+    color: var(--white);
+    background-color: var(--light-grey);
+}
+.submit-btn{
+    width: 100%;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--orange);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0;
+    /* border-radius: %; */
 }
 /* Attribution */
 .attribution { 

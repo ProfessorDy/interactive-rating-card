@@ -67,7 +67,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.submit-rating label{
+.rating-form label{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,14 +82,14 @@ body{
     cursor: pointer;
     text-align: center;
 }
-.submit-rating label:hover{
+.rating-form label:hover{
     color: var(--white);
     background-color: var(--orange);
 }
-.submit-rating input[type="radio"]{
+.rating-form input[type="radio"]{
     display: none;
 }
-.submit-rating input[type="radio"]:checked + label {
+.rating-form input[type="radio"]:checked + label {
     color: var(--white);
     background-color: var(--light-grey);
 }

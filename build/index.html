@@ -45,7 +45,7 @@
           is appreciated to help us improve our offering!
         </p>
       </div>
-      <form class="submit-rating">
+      <form class="rating-form">
         <div class="radio-buttons">
           <input type="radio" name="rating" id="rating1" value="1" />
           <label for="rating1">1</label>
@@ -69,9 +69,15 @@
     <!-- Thank you state start -->
     <article id="thank-you-card" class="card hide">
       You selected
-      <!-- Add rating here -->
-      out of 5 Thank you! We appreciate you taking the time to give a rating. If
-      you ever need more support, don’t hesitate to get in touch!
+      <span id="rating"></span>
+      out of 5
+      <div class="card-text">
+        <h2 class="remark">Thank you!</h2>
+        <p class="remark-subtitle">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
     </article>
 
     <!-- Thank you state end -->
@@ -80,7 +86,9 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/ProfessorDy">Destiny Adebayo</a>.
+      >.
+      <br />
+      Coded by <a href="https://github.com/ProfessorDy">Destiny Adebayo</a>.
     </div>
     <script src="index.js"></script>
   </body>

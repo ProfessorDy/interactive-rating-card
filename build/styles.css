@@ -68,7 +68,9 @@ body{
     justify-content: space-between;
 }
 .submit-rating label{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2rem;
     height: 2rem;
     padding: 2rem;
@@ -78,6 +80,7 @@ body{
     border-radius: 50%;
     transition: all 0.3s;
     cursor: pointer;
+    text-align: center;
 }
 .submit-rating label:hover{
     color: var(--white);

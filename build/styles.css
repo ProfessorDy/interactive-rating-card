@@ -97,6 +97,7 @@ body{
     background-color: var(--orange);
     outline: none;
     border: none;
+    border-radius: 20px;
     cursor: pointer;
     padding: 1rem 0;
     /* border-radius: %; */

@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ProfessorDy/qr-component-card)
-- Live Site URL: [Add live site URL here](https://interactive-rating-cardc.netlify.app/)
+- Solution URL: [Solution](https://github.com/ProfessorDy/interactive-rating-card)
+- Live Site URL: [live site URL](https://interactive-rating-cardc.netlify.app/)
 
 ## My process
 

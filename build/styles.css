@@ -67,6 +67,13 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.rating-form input[type="radio"]{
+    display: none;
+}
+.rating-form input[type="radio"]:checked + label {
+    color: var(--white);
+    background-color: var(--light-grey);
+}
 .rating-form label{
     display: flex;
     justify-content: center;
@@ -86,13 +93,7 @@ body{
     color: var(--white);
     background-color: var(--orange);
 }
-.rating-form input[type="radio"]{
-    display: none;
-}
-.rating-form input[type="radio"]:checked + label {
-    color: var(--white);
-    background-color: var(--light-grey);
-}
+
 .submit-btn{
     width: 100%;
     text-transform: uppercase;
@@ -148,6 +149,9 @@ body{
 .attribution a { 
     color: var(--orange); 
     text-decoration: none;
+}
+.attribution a:hover{
+    color: var(--light-grey);
 }
 
 

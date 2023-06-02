@@ -5,6 +5,7 @@ const rating = document.querySelector('#rating')
 
 const changeState = (e) => {
     e.preventDefault()
+    
     cards.forEach(card => {
         card.classList.toggle('hide')
     });
